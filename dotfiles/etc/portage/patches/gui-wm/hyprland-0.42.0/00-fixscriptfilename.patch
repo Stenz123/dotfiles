@@ -1,0 +1,5 @@
+
+diff --git a/scripts/generateVersion.sh.bak b/scripts/generateVersion.sh
+similarity index 100%
+rename from scripts/generateVersion.sh.bak
+rename to scripts/generateVersion.sh 

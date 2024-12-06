@@ -1,0 +1,8 @@
+dev-qt/qtgui X
+x11-libs/libxkbcommon X
+media-libs/libsdl2 pipewire gles2 X
+app-emulation/virtualbox-additions gles2
+# required by net-print/cups-meta-1::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-print/libcupsfilters-2.0.0-r5 pdf

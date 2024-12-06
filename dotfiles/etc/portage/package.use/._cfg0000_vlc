@@ -1,0 +1,41 @@
+media-video/vlc chromecast loudness mp3 x264 x265 -vaapi
+# required by dev-games/godot-4.3-r1::gentoo
+# required by godot (argument)
+>=media-libs/freetype-2.13.3 brotli harfbuzz
+# required by dev-games/godot-4.3-r1::gentoo[gui,vulkan]
+# required by godot (argument)
+>=media-libs/vulkan-loader-1.3.296.0 X
+# required by media-libs/freetype-2.13.3::gentoo[brotli]
+# required by x11-libs/cairo-1.18.2-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo
+# required by dev-games/godot-4.3-r1::gentoo[wayland]
+# required by godot (argument)
+>=app-arch/brotli-1.1.0 abi_x86_32
+# required by media-libs/freetype-2.13.3::gentoo[harfbuzz]
+# required by x11-libs/cairo-1.18.2-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo
+# required by dev-games/godot-4.3-r1::gentoo[wayland]
+# required by godot (argument)
+>=media-libs/harfbuzz-10.1.0 abi_x86_32
+# required by media-libs/harfbuzz-10.1.0::gentoo[cairo]
+# required by media-libs/freetype-2.13.3::gentoo[harfbuzz]
+# required by dev-games/godot-4.3-r1::gentoo
+# required by godot (argument)
+>=x11-libs/cairo-1.18.2-r1 abi_x86_32
+# required by media-libs/harfbuzz-10.1.0::gentoo[graphite]
+# required by media-libs/freetype-2.13.3::gentoo[harfbuzz]
+# required by x11-libs/cairo-1.18.2-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo
+# required by dev-games/godot-4.3-r1::gentoo[wayland]
+# required by godot (argument)
+>=media-gfx/graphite2-1.3.14_p20210810-r3 abi_x86_32
+# required by x11-libs/cairo-1.18.2-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo
+# required by dev-games/godot-4.3-r1::gentoo[wayland]
+# required by godot (argument)
+>=dev-libs/lzo-2.10 abi_x86_32
+# required by x11-libs/cairo-1.18.2-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo
+# required by dev-games/godot-4.3-r1::gentoo[wayland]
+# required by godot (argument)
+>=x11-libs/pixman-0.44.2 abi_x86_32

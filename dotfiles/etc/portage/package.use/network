@@ -1,0 +1,3 @@
+net-misc/networkmanager connection-sharing dhcpcd gnutls iwd resolvconf nftables -nss -systemd -teamd iptables
+net-wireless/wpa_supplicant dbus
+net-firewall/iptables nftables

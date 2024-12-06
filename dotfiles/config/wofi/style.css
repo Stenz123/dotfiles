@@ -1,0 +1,50 @@
+* {
+    font-family: 'Lato', 'Droid Sans Mono Nerd Font', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#window {
+    margin: 0px;
+    border: 2px solid rgb(102, 51, 153); /* $color_primary = 663399 */
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5); /* $color_background = 000000 */
+    color: rgb(255, 255, 255); /* $color_primary = 663399 */
+}
+
+#input {
+    margin: 15px;
+    background-color: rgb(66, 65, 83); /* $color_tertiary = 424153 */
+    color: rgb(255, 255, 255); /* White text for contrast */
+    border-radius: 25px;
+    border: 2px solid rgb(153, 51, 153); /* $color_secondary = 993399 */
+}
+
+#scroll {
+    margin-bottom: 15px;
+}
+
+#entry {
+    margin: 0px 15px;
+}
+
+#entry:selected {
+    background-color: rgb(102, 51, 153); /* $color_accent = 333399 */
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+#entry > box {
+    margin-left: 16px;
+}
+
+#entry image {
+    padding-right: 10px;
+}
+
+#colors {
+    color: rgb(255, 255, 255); /* White text for contrast */
+}
+

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/michael/.config/alacritty'
+let g:netrw_dirhist_7='/home/michael/k3s/keycloak'
+let g:netrw_dirhist_6='/home/michael/k3s'
+let g:netrw_dirhist_5='/home/michael'
+let g:netrw_dirhist_4='/home/michael/projects/privat/cv/Portraits'
+let g:netrw_dirhist_3='/home/michael/projects/itp/deployments/alex-brot/base'
+let g:netrw_dirhist_2='/home/michael/projects/itp/deployments/alex-brot'
+let g:netrw_dirhist_1='/home/michael/projects/itp/deployments'
+let g:netrw_dirhist_0='/home/michael/projects/itp/deployments/alex-brot/overlays/prod'
+let g:netrw_dirhist_9='/home/michael/projects/itp/deployments/alex-brot/overlays'

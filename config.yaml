@@ -1,0 +1,54 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  f_vimrc:
+    src: vimrc
+    dst: ~/.vimrc
+  d_vim:
+    src: vim
+    dst: ~/.vim
+  d_hypr:
+    src: config/hypr
+    dst: ~/.config/hypr
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_dunst:
+    src: config/dunst
+    dst: ~/.config/dunst
+  d_k9s:
+    src: config/k9s
+    dst: ~/.config/k9s
+    chmod: '700'
+  d_waybar:
+    src: config/waybar
+    dst: ~/.config/waybar
+  d_wofi:
+    src: config/wofi
+    dst: ~/.config/wofi
+  d_portage:
+    src: etc/portage
+    dst: /etc/portage
+profiles:
+  mstenz-gentoo:
+    dotfiles:
+    - f_zshrc
+    - f_vimrc
+    - d_vim
+    - d_hypr
+    - d_alacritty
+    - d_dunst
+    - d_k9s
+    - d_waybar
+    - d_wofi
+    - d_portage

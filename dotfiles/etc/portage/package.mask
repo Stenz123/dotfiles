@@ -1,0 +1,9 @@
+=gui-wm/hyprland-0.42.0
+=gui-wm/hyprland-0.42.0-r1
+=net-wireless/bluez-5.77
+>=dev-python/platformdirs-4.2.2::pypi
+>=dev-python/colorama-0.4.6::pypi
+>=dev-python/rsa-4.9::pypi
+dev-python/tree-sitter::pypi
+=net-wireless/iwd-2.19::gentoo
+=net-wireless/iwd-2.18::gentoo

@@ -1,0 +1,5 @@
+sys-apps/systemd-utils boot kernel-install
+sys-kernel/installkernel systemd systemd-boot
+# required by gui-apps/rofi-wayland-1.7.5-r1::guru
+# required by rofi-wayland (argument)
+>=x11-libs/pango-1.52.2 X

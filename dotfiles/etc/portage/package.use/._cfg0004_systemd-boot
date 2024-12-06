@@ -1,0 +1,5 @@
+sys-apps/systemd-utils boot kernel-install
+sys-kernel/installkernel systemd systemd-boot
+# required by games-util/steam-launcher-1.0.0.81::steam-overlay[video_cards_nvidia]
+# required by games-util/steam-launcher (argument)
+>=x11-drivers/nvidia-drivers-560.35.03 abi_x86_32

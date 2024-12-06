@@ -1,0 +1,19 @@
+gui-wm/hyprland X
+
+x11-libs/cairo X
+x11-libs/gtk+ X
+media-libs/libepoxy X
+media-libs/libglvnd X
+media-libs/mesa X
+app-crypt/gcr gtk
+media-plugins/alsa-plugins pulseaudio
+sys-auth/seatd builtin server
+
+gui-apps/waybar USE=-libinput -logind udev pipewire network
+dev-cpp/cairomm X
+dev-cpp/gtkmm X
+
+dev-qt/qtbase opengl
+dev-qt/qttools opengl
+
+x11-libs/pango X

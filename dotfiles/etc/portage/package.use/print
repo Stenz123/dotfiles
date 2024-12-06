@@ -1,0 +1,5 @@
+net-print/cups pdf zeroconf dbus usb
+app-text/ghostscript-gpl cups
+net-print/cups-meta pdf zeroconf
+net-print/libcupsfilters pdf
+net-fs/samba cups

@@ -1,0 +1,4 @@
+dev-qt/qtgui X
+x11-libs/libxkbcommon X
+media-libs/libsdl2 pipewire gles2 X
+app-emulation/virtualbox-additions gles2

@@ -1,0 +1,8 @@
+dev-qt/qtgui X
+x11-libs/libxkbcommon X
+media-libs/libsdl2 pipewire gles2 X
+app-emulation/virtualbox-additions gles2
+# required by gui-apps/eww-0.6.0-r2::guru
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gdk-pixbuf-2.42.12 jpeg

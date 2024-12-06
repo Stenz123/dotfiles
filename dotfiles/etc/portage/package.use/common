@@ -1,0 +1,7 @@
+app-text/xmlto text
+dev-qt/qtsingleapplication X
+dev-qt/qtgui egl
+dev-db/sqlite abi_x86_32
+sys-libs/readline abi_x86_32
+x11-libs/gdk-pixbuf jpeg
+x11-libs/wxGTK X

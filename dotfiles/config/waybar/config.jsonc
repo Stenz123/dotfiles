@@ -1,0 +1,76 @@
+// vim:set ft=jsonc:
+{
+  "position": "top",
+  "modules-left": [
+    "custom/gentoo-pill"
+  ],
+  "modules-center": ["custom/playerctl"],
+  "modules-right": [
+	  "pulseaudio",
+	  "backlight",
+	  "cpu",
+	  "memory",
+	  "temperature",
+	  "battery",
+	  "clock"
+  ],
+  // Modules configuration
+  "custom/gentoo-pill": {
+    "format": "",
+    "tooltip": false
+  },
+  "clock": {
+    "format": "<span foreground='#89dceb'>   </span><span>{:%I:%M %p}</span>",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "<span>{:%I:%M %p %a %d}</span>"
+  },
+  "cpu": {
+    "format": "<span foreground='#89b4fa'></span>  {usage}%"
+  },
+  "memory": {
+    "format": "<span foreground='#f5e0dc'> </span> {}%"
+  },
+  "temperature": {
+    "critical-threshold": 80,
+    "format": "<span foreground='#eba0ac'></span> {temperatureC}°C"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "<span foreground='#f9e2af'>{icon}</span>  {percent}%",
+    "format-icons": ["" ]
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "<span foreground='#a6e3a1'>{icon}</span>   {capacity}%",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "pulseaudio": {
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "format": "<span size='13000' foreground='#fab387'></span>  {volume}%",
+    "format-muted": "<span size='14000'>󰝟</span>",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+    },
+    "on-click-right": "pavucontrol"
+  },
+  "custom/playerctl": {
+    "format": "{icon}  <span>{}</span>",
+    "return-type": "json",
+    "max-length": 50,
+    "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} ~ {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+    "on-click": "playerctl play-pause",
+    "format-icons": {
+      "Playing": "<span foreground='#94e2d5'></span>",
+      "Paused": "<span foreground='#f38ba8'></span>"
+    }
+  },
+}

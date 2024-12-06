@@ -1,0 +1,5 @@
+sys-apps/systemd-utils boot kernel-install
+sys-kernel/installkernel systemd systemd-boot
+# required by x11-misc/xdg-utils-1.2.1-r6::gentoo
+# required by x11-misc/xdg-utils (argument)
+>=app-text/xmlto-0.0.28-r11 text

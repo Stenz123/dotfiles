@@ -1,0 +1,10 @@
+sys-apps/systemd-utils boot kernel-install
+sys-kernel/installkernel systemd systemd-boot
+# required by media-gfx/flameshot-12.1.0-r2::gentoo
+# required by media-gfx/flameshot (argument)
+>=dev-qt/qtsingleapplication-2.6.1_p20171024 X
+# required by dev-qt/qtwayland-5.15.14::gentoo
+# required by kde-frameworks/kguiaddons-5.116.0::gentoo[wayland]
+# required by media-gfx/flameshot-12.1.0-r2::gentoo[wayland]
+# required by media-gfx/flameshot (argument)
+>=dev-qt/qtgui-5.15.14 egl

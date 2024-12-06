@@ -1,0 +1,10 @@
+app-text/texlive png extra
+media-libs/harfbuzz icu
+
+dev-qt/qtdeclarative opengl
+dev-qt/qtbase opengl
+
+sys-libs/zlib minizip
+dev-qt/qtbase opengl
+dev-libs/quazip qt6
+app-text/poppler qt6

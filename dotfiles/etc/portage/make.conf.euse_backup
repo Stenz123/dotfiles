@@ -1,0 +1,22 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+COMMON_FLAGS="-march=native -O2 -pipe"
+
+USE="wayland -X iptables dist-kernel zsh-completion networkmanager vaapi dbus -elogind pulseaudio"
+
+MAKEOPTS="--jobs 8 --load-average 9"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+
+L10N="de en-GB en-US"
+
+VIDEO_CARDS="intel nvidia"
+
+LC_MESSAGES=C.utf8
+
+ACCEPT_KEYWORDS="~amd64"
