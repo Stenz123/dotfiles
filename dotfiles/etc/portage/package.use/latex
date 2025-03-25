@@ -8,3 +8,5 @@ sys-libs/zlib minizip
 dev-qt/qtbase opengl
 dev-libs/quazip qt6
 app-text/poppler qt6
+
+dev-qt/qtmultimedia opengl

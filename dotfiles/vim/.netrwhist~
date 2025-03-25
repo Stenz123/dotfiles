@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/michael/projects/itp/deployments/alex-brot/base'
+let g:netrw_dirhist_6='/home/michael/projects/itp/deployments/alex-brot'
+let g:netrw_dirhist_5='/home/michael/school/sew/reservation_system/reservation'
+let g:netrw_dirhist_4='/home/michael/school/sew/reservation_system'
+let g:netrw_dirhist_3='/home/michael/projects/itp/deployments/alex-brot/overlays/dev'
+let g:netrw_dirhist_2='/home/michael/projects/itp/deployments/alex-brot/overlays'
+let g:netrw_dirhist_1='/home/michael/projects/itp/deployments/alex-brot/overlays/dev'
+let g:netrw_dirhist_0='/home/michael/projects/itp/deployments/alex-brot/overlays/prod'
+let g:netrw_dirhist_9='/home/michael/projects/itp/deployments/alex-brot/overlays'
+let g:netrw_dirhist_8='/home/michael/projects/itp/deployments/alex-brot'

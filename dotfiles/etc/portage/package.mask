@@ -7,3 +7,4 @@
 dev-python/tree-sitter::pypi
 =net-wireless/iwd-2.19::gentoo
 =net-wireless/iwd-2.18::gentoo
+=llvm-core/libclc-20.1.1

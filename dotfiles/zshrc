@@ -19,6 +19,7 @@ alias ll="ls --color -l -h -a"
 alias mkdir="mkdir -pv"
 alias grep="grep -n --color"
 alias neofetch="fastfetch"
+alias copy='f(){ cat "$@" | wl-copy ;  unset -f f; }; f'
 
 alias idea="~/.local/share/JetBrains/Toolbox/scripts/idea1 &"
 
@@ -44,5 +45,3 @@ plugins=(
 export PATH="$PATH:$(yarn global bin)"
 export PATH=$HOME/.local/bin:$PATH
 
-# Load Angular CLI autocompletion.
-source <(ng completion script)

@@ -17,3 +17,6 @@ dev-qt/qtbase opengl
 dev-qt/qttools opengl
 
 x11-libs/pango X
+
+kde-frameworks/sonnet qml
+dev-qt/qt5compat qml

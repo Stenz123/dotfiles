@@ -1,12 +1,10 @@
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
 net-im/discord all-rights-reserved
 x11-drivers/nvidia-drivers NVIDIA-r2
+sys-firmware/nvidia-firmware NVIDIA-r2
 media-fonts/nerd-fonts Vic-Fieger-License
 gui-apps/sysmenu WTFPL
 media-sound/spotify Spotify
 dev-util/jetbrains-toolbox JetBrainsToolbox JetBrainsToolbox
 dev-util/idea-community codehaus-classworlds
 games-util/steam-launcher ValveSteamLicense
-media-gfx/unreal-engine UnrealEngine
-media-video/davinci-resolve-studio Blackmagic
-dev-db/sqldeveloper OTN
